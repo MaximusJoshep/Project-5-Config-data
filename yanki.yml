@@ -5,13 +5,13 @@ eureka:
     fetch-registry: true
     register-with-eureka: true
     service-url:
-      default-zone: http://localhost:8761/eureka
+      default-zone: http://localhost:8761/eureka/
     instance:
       hostname: localhost
 spring: 
   data:
     mongodb:
-      uri: mongodb+srv://rgonzalesm97:JFhtRLmWRJfS2eMA@micluster.tqgdj.mongodb.net/BootcampP1Bank?retryWrites=true&w=majority
+      uri: mongodb+srv://Jose:root@cluster0.y91u5.mongodb.net/test
   kafka:
     properties:
       sasl:
